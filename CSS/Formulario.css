@@ -1,0 +1,78 @@
+/*PsdoClases CSS
+:hover -Funciona cuando pasa el cursor sobre el Elemento
+:focus -Funciona cuando el usuario esta interactuando con el Elemento
+*/
+body{
+	margin: 0;
+	background: #ACD7F4;
+	font-family: 'Raleway', sans-serif;
+}
+.logo{
+	position: absolute;
+	width: 300px;
+	margin: 0 0 0 100px;
+}
+.logo-cetis{
+	position: absolute;
+	width: 320px;
+	right: 90px;
+}
+.formulario{
+	position: relative;
+	background: #113269;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	margin: auto;
+	margin-top: 50px;
+	width: 400px;
+	border-radius: 3px;
+}
+.formulario_instrucciones{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	grid-column: span 2;
+}
+.formulario_label{
+	display: block;
+	color: white;
+	font-size: 20px;
+	margin: 10px 0;
+}
+select {
+  width: 100px;
+  height: 28px;
+  border-radius: 5px;
+  outline: transparent;
+  font-size: 15px;
+  padding: 2px 5px;
+}
+select:focus{
+  border: 3px solid #1793E9;
+}
+option{
+	font-size: 18px;
+}
+button{
+	width: 100px;
+	margin: 15px auto;
+	grid-column: span 2;
+	background: white;
+	border: transparent;
+	border-radius: 5px;
+	height: 30px;
+	font-weight: bold;
+}
+
+
+/*FUENTES*/
+@font-face{
+  font-family: 'Raleway-Light';/*font-family: 'Raleway', sans-serif;*/
+  src: url('../FUENTES/Raleway/static/Raleway-Light.ttf');
+}
+
+@font-face{
+  font-family: 'RobotoSlab-Regular';/*font-family: 'Roboto Slab', serif;*/
+  src: url('../FUENTES/Roboto_Slab/static/RobotoSlab-Regular.ttf');
+}
