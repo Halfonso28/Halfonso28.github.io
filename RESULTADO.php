@@ -3,91 +3,45 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="CSS/Resultado.css">
 	<title>RESULTADO</title>
 </head>
 <body>
+<div class="contenedor-resultado">	
+<p class="titulo">RESULTADO</p>
+<p class="subtitulo">Hola, hemos encontrado las siguientes entorobacterias.</p>
+<!--COGIGO PHP-->	
 <?php
-//VARIABLES:
-$KIA=$_POST['KIA'];
-$GAS=$_POST['GAS'];
-$H2S=$_POST['H2S'];
-$RM=$_POST['RM'];
-$IND=$_POST['IND'];
-$CIT=$_POST['CIT'];
-$URE=$_POST['URE'];
-$MOV=$_POST['MOV'];
-$LIS=$_POST['LIS'];
-$ORN=$_POST['ORN'];
-
-
-$ECOLI="A/A+-++--+-+";
-$ECOLIINACTIVA="A/A+-++----+";
-$GRUPOSABC="Alc/A--+-/+-----";
-$GRUPOSABC1="Alc/A--++-----";
-$GRUPOSABC2="Alc/A--+------";
-$SSONNEI="Alc/A--+-----+";
-$SBOYDII="Alc/A--+------";
-$SFLEXNERI="Alc/A--+-/+-----";
-$SFLEXNERI1="Alc/A--++-----";
-$SFLEXNERI2="Alc/A--+------";
-$EDWARSIELLA="Alc/A++++--+++";//a
-$ETARDA="Alc/A++++--+++";//a
-$HOSHINAE="Alc/A+++---+++";
-$SALMONELLA="Alc/A+++-+-+++";
-$STYPHI="Alc/A+++---+--";
-$SPARATYPHIA="Alc/A-++---+++";
-if ($KIA=="A/A") {
-	$CFREUNDII="A/A+++-++/-+--";
-	$CFREUNDII1="A/A+++-+++--";
-	$CFREUNDII2="A/A+++-+-+--";
-}else{
-	$CFREUNDII="Alc/A+++-++/-+--";
-	$CFREUNDII1="Alc/A+++-+++--";
-	$CFREUNDII2="Alc/A+++-+-+--";
-}
-$CKOSERI="Alc/A+-++++/-+-+";
-$CKOSERI1="Alc/A+-+++++-+";
-$CKOSERI2="Alc/A+-+++-+-+";
-
-$KPNEUMONIAE="A/A++---++-+-";
-$KOXYTOCA="A/A++--+++-++";
-$EAEROGENES="A/A++---+-+++";
-$ECLOACAE="A/A++---++/-+-+";
-$ECLOACAE1="A/A++---+++-+";
-$ECLOACAE2="A/A++---+-+-+";
-$HALVEI="Alc/A+--/+---+++";
-$HALVEI1="Alc/A+-+---+++";
-$HALVEI2="Alc/A+-----+++";
-if($GAS=="-/+"||$GAS=="+"||$GAS=="-"){
-	if($RM=="-/+"||$RM=="+"||$RM=="-"){
-		if($CIT=="+/-"||$CIT=="+"||$CIT=="-"){
-			if($URE=="-/+"||$URE=="+"||$URE=="-"){
-				$PAGGLOMERANS="Alc/A--";
-				$PAGGLOMERANS="Alc/A--";
-				$PAGGLOMERANS="Alc/A--";
-			}
-		}
-	}
-}
-
-
-$SMARCESCENS="";
-
-
-
-$RESULTADO=$KIA.$GAS.$H2S.$RM.$IND.$CIT.$URE.$MOV.$LIS.$ORN;
+include("Variables.php");
 
 //PROCEDIMIENTO
 if ($RESULTADO==$ECOLI) {
-	echo "E.COLI<br>";
+	echo "<p class='texto-resultado'>E.COLI</p>";
+	echo "<img src='IMG/ecoli.jpeg' class='imagen-resultado'>";
+	echo "<p class='descripcion-resultado'>La E. coli es una bacteria que se encuentra en los intestinos de las personas y los animales, en el medioambiente y, a veces, también en los alimentos y el agua sin tratar. La mayoría de los tipos de E. coli son inofensivos y son parte de un tracto intestinal sano.</p>";
 }
 if ($RESULTADO==$ECOLIINACTIVA) {
 	echo "E.COLIINACTIVA<br>";
 }
-if ($RESULTADO==$GRUPOSABC) {
+if ($RESULTADO==$GRUPOSABC||$RESULTADO==$GRUPOSABC1||$RESULTADO==$GRUPOSABC2) {
 	echo "GRUPOS A,B,C";
 }
-
+if ($RESULTADO==$SSONNEI) {
+	echo "S.SONNEI";
+}
+if ($RESULTADO==$SBOYDII) {
+	echo "S.BOYDI";
+}
+if ($RESULTADO==$SFLEXNERI||$RESULTADO==$SFLEXNERI1||$RESULTADO==$SFLEXNERI2) {
+	echo "S.FLEXNERI";
+}
+if ($RESULTADO==$EDWARSIELLA) {
+	echo "EDWARSIELLA";
+}
+if ($RESULTADO==$ETARDA) {
+	echo "E.TARDA";
+}
 ?>
+	</div>
 </body>
 </html>
