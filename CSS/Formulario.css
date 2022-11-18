@@ -76,3 +76,17 @@ button{
   font-family: 'RobotoSlab-Regular';/*font-family: 'Roboto Slab', serif;*/
   src: url('../FUENTES/Roboto_Slab/static/RobotoSlab-Regular.ttf');
 }
+
+
+/*
+Media Querys
+@media (min-width: 700px) { ... }
+@media (min-width: 700px) and (orientation: landscape) { ... }
+*/
+@media (max-width: 390px){
+
+body{
+	background: red;
+}
+
+}
