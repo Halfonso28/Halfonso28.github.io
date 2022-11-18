@@ -7,14 +7,18 @@ body{
 	background: #ACD7F4;
 	font-family: 'Raleway', sans-serif;
 }
+main{
+	display: flex;
+}
 .logo{
 	position: absolute;
 	width: 300px;
 	margin: 0 0 0 100px;
 }
 .logo-cetis{
+	margin-top: 48px;
 	position: absolute;
-	width: 320px;
+	width: 330px;
 	right: 90px;
 }
 .formulario{
@@ -85,11 +89,18 @@ Media Querys
 */
 @media (min-width: 300px) and (max-width:	480px){
 
+main{
+	display: block;
+}
 .logo{
 	position: relative;
+	margin: 0px;
+	width: 100%;
 }
 .logo-cetis{
+	right: 0;
 	position: relative;
+	width: 100%;
 }
 
 }
