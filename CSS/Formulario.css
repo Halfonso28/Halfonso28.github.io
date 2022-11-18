@@ -85,8 +85,11 @@ Media Querys
 */
 @media (min-width: 300px) and (max-width:	480px){
 
-body{
-	background: red;
+.logo{
+	position: relative;
+}
+.logo-cetis{
+	position: relative;
 }
 
 }
