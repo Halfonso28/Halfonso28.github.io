@@ -83,7 +83,7 @@ Media Querys
 @media (min-width: 700px) { ... }
 @media (min-width: 700px) and (orientation: landscape) { ... }
 */
-@media (min-width: 300px) and (max-width:	400px){
+@media (min-width: 300px) and (max-width:	480px){
 
 body{
 	background: red;
