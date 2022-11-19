@@ -20,20 +20,31 @@ if ($RESULTADO==$ECOLI) {
 	echo "<p class='nombre-resultado'>E.COLI</p>";
 	echo "<img src='IMG/ecoli.jpeg' class='imagen-resultado'>";
 	echo "<p class='descripcion-resultado'>
-
-<strong>TRIBU:</strong> Escherichiea <br>
-<strong>GÉNERO:</strong> Escherichie A <br>
-<strong>PATOGENIA Y PATOLOGIA:</strong> La cepas patogenas expresan factores de virulencia que les
-permite colonizar mucosas y luego causar enfermedades. Este microorganismo se asocia a
-multiples enfermedades, incluida la gastroenteritis e infecciones extraintestinales, como las
-urinarias y meningitis. <br>
-<strong>MECANISMO DE CONTAGIO:</strong> Se propagan a través del agua o los alimentos contaminados y
-del contacto con animales o personas.<br>
-<strong>MORFOLOGIA:</strong> Basilo Gram negativo, no porulado, es móvil ya que tiene flagelos y mide
-solo 1 μm de longitud por 0.35 μm de ancho.</p>";
+	<strong>TRIBU:</strong> Escherichiea <br>
+	<strong>GÉNERO:</strong> Escherichie A <br>
+	<strong>PATOGENIA Y PATOLOGIA:</strong> La cepas patogenas expresan factores de virulencia que les
+	permite colonizar mucosas y luego causar enfermedades. Este microorganismo se asocia a
+	multiples enfermedades, incluida la gastroenteritis e infecciones extraintestinales, como las
+	urinarias y meningitis. <br>
+	<strong>MECANISMO DE CONTAGIO:</strong> Se propagan a través del agua o los alimentos contaminados y
+	del contacto con animales o personas.<br>
+	<strong>MORFOLOGIA:</strong> Basilo Gram negativo, no porulado, es móvil ya que tiene flagelos y mide
+	solo 1 μm de longitud por 0.35 μm de ancho.</p>";
 }
 if ($RESULTADO==$ECOLIINACTIVA) {
-	echo "E.COLIINACTIVA<br>";
+	echo "<p class='nombre-resultado'>E.COLI INACTIVA</p>";
+	echo "<img src='IMG/ecoli-inactiva.jpeg' class='imagen-resultado'>";
+	echo "<p class='descripcion-resultado'>
+	<strong>TRIBU:</strong> Escherichiea <br>
+	<strong>GÉNERO:</strong> Escherichie A <br>
+	<strong>PATOGENIA Y PATOLOGIA:</strong> La cepas patogenas expresan factores de virulencia que les
+	permite colonizar mucosas y luego causar enfermedades. Este microorganismo se asocia a
+	multiples enfermedades, incluida la gastroenteritis e infecciones extraintestinales, como las
+	urinarias y meningitis. <br>
+	<strong>MECANISMO DE CONTAGIO:</strong> Se propagan a través del agua o los alimentos contaminados y
+	del contacto con animales o personas.<br>
+	<strong>MORFOLOGIA:</strong> Basilo Gram negativo, no porulado, es móvil ya que tiene flagelos y mide
+	solo 1 μm de longitud por 0.35 μm de ancho.</p>";
 }
 if ($RESULTADO==$GRUPOSABC||$RESULTADO==$GRUPOSABC1||$RESULTADO==$GRUPOSABC2) {
 	echo "GRUPOS A,B,C";

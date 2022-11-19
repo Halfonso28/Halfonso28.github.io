@@ -11,7 +11,7 @@ body{
 	text-align: center;
 	width: 800px;
 	margin: auto;
-	background: linear-gradient(to bottom, #004080 45%, white);
+	background: linear-gradient(to bottom, #004080 45%, #B9CBD8);
 	color: white;
 }
 .titulo{
@@ -53,5 +53,6 @@ Media Querys
 @media (min-width: 300px) and (max-width:	480px) {
 	.contenedor-resultado{
 		width: 95%;
+		background: linear-gradient(to bottom, #004080 30%, #B9CBD8);
 	}
 }
