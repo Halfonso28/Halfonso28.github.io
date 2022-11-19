@@ -9,16 +9,28 @@
 <body>
 <div class="contenedor-resultado">	
 <p class="titulo">RESULTADO</p>
-<p class="subtitulo">Hola, hemos encontrado las siguientes entorobacterias.</p>
+<p class="subtitulo">Hola, hemos encontrado las siguientes enterobacterias.</p>
 <!--COGIGO PHP-->	
 <?php
+
 include("Variables.php");
 
 //PROCEDIMIENTO
 if ($RESULTADO==$ECOLI) {
-	echo "<p class='texto-resultado'>E.COLI</p>";
+	echo "<p class='nombre-resultado'>E.COLI</p>";
 	echo "<img src='IMG/ecoli.jpeg' class='imagen-resultado'>";
-	echo "<p class='descripcion-resultado'>La E. coli es una bacteria que se encuentra en los intestinos de las personas y los animales, en el medioambiente y, a veces, también en los alimentos y el agua sin tratar. La mayoría de los tipos de E. coli son inofensivos y son parte de un tracto intestinal sano.</p>";
+	echo "<p class='descripcion-resultado'>
+
+<strong>TRIBU:</strong> Escherichiea <br>
+<strong>GÉNERO:</strong> Escherichie A <br>
+<strong>PATOGENIA Y PATOLOGIA:</strong> La cepas patogenas expresan factores de virulencia que les
+permite colonizar mucosas y luego causar enfermedades. Este microorganismo se asocia a
+multiples enfermedades, incluida la gastroenteritis e infecciones extraintestinales, como las
+urinarias y meningitis. <br>
+<strong>MECANISMO DE CONTAGIO:</strong> Se propagan a través del agua o los alimentos contaminados y
+del contacto con animales o personas.<br>
+<strong>MORFOLOGIA:</strong> Basilo Gram negativo, no porulado, es móvil ya que tiene flagelos y mide
+solo 1 μm de longitud por 0.35 μm de ancho.</p>";
 }
 if ($RESULTADO==$ECOLIINACTIVA) {
 	echo "E.COLIINACTIVA<br>";

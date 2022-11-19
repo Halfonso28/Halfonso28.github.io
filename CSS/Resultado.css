@@ -1,7 +1,18 @@
+/*background: linear-gradient(to bottom, #004080 50%, white);
+															(direccion,color1,color2,color...)opcional porcentaje que ocupa el color*/
 body{
 	margin: 0;
+	margin-top: 15px;
 	background: #ACD7F4;
 	font-family: 'Raleway', sans-serif;
+}
+.contenedor-resultado{
+	padding-top: 15px;
+	text-align: center;
+	width: 800px;
+	margin: auto;
+	background: linear-gradient(to bottom, #004080 45%, white);
+	color: white;
 }
 .titulo{
 	margin: 0;
@@ -12,27 +23,35 @@ body{
 	margin: 0;
 	font-size: 20px;
 }
-.contenedor-resultado{
-	text-align: center;
-	border: 3px solid black;
-	width: 400px;
-	margin: auto;
-}
-.texto-resultado{
+.nombre-resultado{
 	font-size: 30px;
 	font-weight: bold;
+	margin-bottom: 10px;
 }
 .descripcion-resultado{
 	display: block;
 	margin: auto;
-	width: 380px;
-	font-size: 25px;
+	color: black;
+	width: 95%;
+	padding: 15px 5px 10px 5px;
+	font-size: 20px;
 	text-align: justify;
-	padding: 10px 5px 10px 5px;
+	line-height: 35px;
 }
 
 /*FUENTES*/
 @font-face{
   font-family: 'Raleway-Light';/*font-family: 'Raleway', sans-serif;*/
   src: url('../FUENTES/Raleway/static/Raleway-Light.ttf');
+}
+
+/*
+Media Querys
+@media (min-width: 700px) { ... }
+@media (min-width: 700px) and (orientation: landscape) { ... }
+*/
+@media (min-width: 700px) {
+	.contenedor-resultado{
+		width: 90%;
+	}
 }

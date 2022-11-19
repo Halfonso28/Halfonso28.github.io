@@ -14,14 +14,14 @@ $ORN=$_POST['ORN'];
 
 $ECOLI="A/A+-++--+-+";
 $ECOLIINACTIVA="A/A+-++----+";
-$GRUPOSABC="Alc/A--+-/+-----";
-$GRUPOSABC1="Alc/A--++-----";
-$GRUPOSABC2="Alc/A--+------";
+$GRUPOSABC="Alc/A--+-/+-----";//b
+$GRUPOSABC1="Alc/A--++-----";//c
+$GRUPOSABC2="Alc/A--+------";//d
 $SSONNEI="Alc/A--+-----+";
-$SBOYDII="Alc/A--+------";
-$SFLEXNERI="Alc/A--+-/+-----";
-$SFLEXNERI1="Alc/A--++-----";
-$SFLEXNERI2="Alc/A--+------";
+$SBOYDII="Alc/A--+------";//d
+$SFLEXNERI="Alc/A--+-/+-----";//b
+$SFLEXNERI1="Alc/A--++-----";//c
+$SFLEXNERI2="Alc/A--+------";//d
 $EDWARSIELLA="Alc/A++++--+++";//a
 $ETARDA="Alc/A++++--+++";//a
 $HOSHINAE="Alc/A+++---+++";
@@ -40,7 +40,6 @@ if ($KIA=="A/A") {
 $CKOSERI="Alc/A+-++++/-+-+";
 $CKOSERI1="Alc/A+-+++++-+";
 $CKOSERI2="Alc/A+-+++-+-+";
-
 $KPNEUMONIAE="A/A++---++-+-";
 $KOXYTOCA="A/A++--+++-++";
 $EAEROGENES="A/A++---+-+++";
@@ -50,21 +49,21 @@ $ECLOACAE2="A/A++---+-+-+";
 $HALVEI="Alc/A+--/+---+++";
 $HALVEI1="Alc/A+-+---+++";
 $HALVEI2="Alc/A+-----+++";
-if($GAS=="-/+"||$GAS=="+"||$GAS=="-"){
-	if($RM=="-/+"||$RM=="+"||$RM=="-"){
-		if($CIT=="+/-"||$CIT=="+"||$CIT=="-"){
-			if($URE=="-/+"||$URE=="+"||$URE=="-"){
-				$PAGGLOMERANS="Alc/A--";
-				$PAGGLOMERANS="Alc/A--";
-				$PAGGLOMERANS="Alc/A--";
-			}
-		}
-	}
-}
-
-
-$SMARCESCENS="";
-
+$PAGGLOMERANS="";//1
+$SMARCESCENS="";//2
+$PVULGARIS="";//3
+$PMIRABILIS="Alc/A+++-+/-+++-+";
+$PMIRABILIS1="Alc/A+++-++++-+";
+$PMIRABILIS2="Alc/A+++--+++-+";
+$MMORGANII="Alc/A+-++-+++-+";
+$PRETTGERI="Alc/A+-++-+++--";
+$PSTUARTII="";//4
+$PALCALIFACIENS="Alc/A+/--+++-+--";
+$PALCALIFACIENS1="Alc/A+-+++-+--";
+$PALCALIFACIENS2="Alc/A--+++-+--";
+$YENTEROCOLITICA="";//5
+$YPESTIS="Alc/A--+------";//d
+$INTERMEDIA="Alc/A--++-+---";
 
 
 $RESULTADO=$KIA.$GAS.$H2S.$RM.$IND.$CIT.$URE.$MOV.$LIS.$ORN; 
