@@ -50,8 +50,8 @@ Media Querys
 @media (min-width: 700px) { ... }
 @media (min-width: 700px) and (orientation: landscape) { ... }
 */
-@media (min-width: 700px) {
+@media (min-width: 300px) and (max-width:	480px) {
 	.contenedor-resultado{
-		width: 90%;
+		width: 95%;
 	}
 }

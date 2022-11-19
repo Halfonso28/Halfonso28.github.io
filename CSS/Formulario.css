@@ -92,6 +92,9 @@ Media Querys
 main{
 	display: block;
 }
+.formulario{
+	width: 97%;
+}
 .logo{
 	position: relative;
 	margin: 0px;
