@@ -83,7 +83,7 @@ if ($RESULTADO==$SBOYDII) {
 	<br></p>";
 }
 if ($RESULTADO==$ETARDA) {
-	echo "<p>E.TARDA</p>";
+	echo "<p class='nombre-resultado'>E.TARDA</p>";
 	echo "<img src='IMG/ETARDA.png' class='imagen-resultado'>";
 	echo "<p class='descripcion-resultado'>
 	<strong>TRIBU:</strong> EDWARSIELLEA E.<br>
@@ -140,6 +140,9 @@ if ($RESULTADO==$STYPHI) {
 	hospedantes.<br>
 	<strong>MORFOLOGIA:</strong> Bacilos Gram negativos, sin capsula miden de 24 μm de largo por 0,6 μm de ancho.
 	<br></p>";
+}
+if ($RESULTADO==$SPARATYPHIA) {
+	// code...
 }
 ?>
 </div>
