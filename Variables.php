@@ -14,16 +14,9 @@ $ORN=$_POST['ORN'];
 
 $ECOLI="A/A+-++--+-+";
 $ECOLIINACTIVA="A/A+-++----+";
-$GRUPOSABC="Alc/A--+-/+-----";//b
-$GRUPOSABC1="Alc/A--++-----";//c
-$GRUPOSABC2="Alc/A--+------";//d
 $SSONNEI="Alc/A--+-----+";
-$SBOYDII="Alc/A--+------";//d
-$SFLEXNERI="Alc/A--+-/+-----";//b
-$SFLEXNERI1="Alc/A--++-----";//c
-$SFLEXNERI2="Alc/A--+------";//d
-$EDWARSIELLA="Alc/A++++--+++";//a
-$ETARDA="Alc/A++++--+++";//a
+$SBOYDII="Alc/A--+------";
+$ETARDA="Alc/A++++--+++";
 $HOSHINAE="Alc/A+++---+++";
 $SALMONELLA="Alc/A+++-+-+++";
 $STYPHI="Alc/A+++---+--";
@@ -62,7 +55,6 @@ $PALCALIFACIENS="Alc/A+/--+++-+--";
 $PALCALIFACIENS1="Alc/A+-+++-+--";
 $PALCALIFACIENS2="Alc/A--+++-+--";
 $YENTEROCOLITICA="";//5
-$YPESTIS="Alc/A--+------";//d
 $INTERMEDIA="Alc/A--++-+---";
 
 
