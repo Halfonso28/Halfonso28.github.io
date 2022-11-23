@@ -18,7 +18,7 @@ include("Variables.php");
 //PROCEDIMIENTO
 if ($RESULTADO==$ECOLI) {
 	echo "<p class='nombre-resultado'>E.COLI</p>";
-	echo "<img src='IMG/ecoli.jpeg' class='imagen-resultado'>";
+	echo "<img src='IMG/ECOLI.png' class='imagen-resultado'>";
 	echo "<p class='descripcion-resultado'>
 	<strong>TRIBU:</strong> Escherichiea <br>
 	<strong>GÉNERO:</strong> Escherichie A <br>
@@ -33,7 +33,7 @@ if ($RESULTADO==$ECOLI) {
 }
 if ($RESULTADO==$ECOLIINACTIVA) {
 	echo "<p class='nombre-resultado'>E.COLI INACTIVA</p>";
-	echo "<img src='IMG/ecoli-inactiva.jpeg' class='imagen-resultado'>";
+	echo "<img src='IMG/ECOLI.png' class='imagen-resultado'>";
 	echo "<p class='descripcion-resultado'>
 	<strong>TRIBU:</strong> Escherichiea <br>
 	<strong>GÉNERO:</strong> Escherichie A <br>
