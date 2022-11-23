@@ -267,6 +267,9 @@ elseif ($RESULTADO==$PMIRABILIS||$RESULTADO==$PMIRABILIS1||$RESULTADO==$PMIRABIL
 	<strong>MORFOLOGÍA:</strong> Bacilo gram negativo, mide de 1.5 a 2 μm, no forma esporas, móviles.
 	<br></p>";
 }
+elseif (condition) {
+	// code...
+}
 ?>
 </div>
 </body>
