@@ -131,13 +131,13 @@ main{
 	.logo{
 		margin-top: 40px;
 		position: absolute;
-		width: 190px;
-		margin-left: 20px;
+		width: 170px;
+		margin-left: 10px;
 	}
 	.logo-cetis{
-		margin-right: 20px;
+		margin-right: 8px;
 		right: 0;
 		position: absolute;
-		width: 200px;
+		width: 180px;
 	}	
 }
