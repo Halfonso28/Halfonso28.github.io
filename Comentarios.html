@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Comentarios.css">
+    <title>Comentarios</title>
+</head>
+<body>
+<main>
+    <p class="titulo">Sección de Comentarios</p>
+    <form action="SERVIDOR/Correo.php" class="formulario" method="post">
+        <label for="Nombre" class="formulario-label">Introduce tu Nombre:</label>
+        <input type="text" class="formulario-input" name="Nombre" id="Nombre" pattern="^[a-zA-ZÀ-ÿ\s]{1,30}$" required title="Solo puedes ingresar letras.">
+        <label for="Correo" class="formulario-label">Introduce tu Correo:</label>
+        <input type="email" class="formulario-input" name="Correo" id="Correo" required title="Ingresa una dirección de correo valida.">
+        <label for="Comentario" class="formulario-label">Escríbenos cuál es el problema:</label>
+        <textarea name="Comentario" id="Comentario" cols="30" rows="9" required></textarea>
+        <button type="submit" class="boton-enviar">Enviar</button>
+    </form>
+</main>
+</body>
+</html>

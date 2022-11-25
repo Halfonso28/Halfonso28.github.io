@@ -5,7 +5,9 @@
 body{
 	margin: 0;
 	background: #ACD7F4;
-	font-family: 'Raleway', sans-serif;
+	/* font-family: 'Raleway-Light', sans-serif; */
+	/* font-family: 'RobotoSlab-Regular', serif; */
+	font-family: 'Quicksand-medium', sans-serif;
 }
 main{
 	display: flex;
@@ -13,13 +15,13 @@ main{
 .logo{
 	position: absolute;
 	width: 300px;
-	margin: 0 0 0 100px;
+	margin: 45px 0 0 100px;
 }
 .logo-cetis{
-	margin-top: 30px;
+	margin-top: 38px;
 	position: absolute;
-	width: 370px;
-	right: 80px;
+	width: 310px;
+	right: 100px;
 }
 .formulario{
 	position: relative;
@@ -68,17 +70,35 @@ button{
 	height: 30px;
 	font-weight: bold;
 }
-
+.contenedor-comentarios{
+	margin: auto;
+	text-align: center;
+	width: 400px;
+	font-size: 20px;
+}
+.comentario-enlace{
+	text-decoration: none;
+	font-family: 'Quicksand-bold', sans-serif;
+	color: red;
+}
 
 /*FUENTES*/
 @font-face{
-  font-family: 'Raleway-Light';/*font-family: 'Raleway', sans-serif;*/
-  src: url('../FUENTES/Raleway/static/Raleway-Light.ttf');
+	font-family: 'Raleway-Light';/*font-family: 'Raleway-Light', sans-serif;*/
+	src: url('../FUENTES/Raleway/static/Raleway-Light.ttf');
 }
 
 @font-face{
-  font-family: 'RobotoSlab-Regular';/*font-family: 'Roboto Slab', serif;*/
-  src: url('../FUENTES/Roboto_Slab/static/RobotoSlab-Regular.ttf');
+  	font-family: 'RobotoSlab-Regular';/*font-family: 'RobotoSlab-Regular', serif;*/
+  	src: url('../FUENTES/Roboto_Slab/static/RobotoSlab-Regular.ttf');
+}
+@font-face {
+    font-family:'Quicksand-medium';/*font-family: 'Quicksand-medium', sans-serif;*/
+    src: url('../FUENTES/Quicksand/static/Quicksand-Medium.ttf');
+}
+@font-face {
+    font-family:'Quicksand-bold';/*font-family: 'Quicksand-bold', sans-serif;*/
+    src: url('../FUENTES/Quicksand/static/Quicksand-Bold.ttf');
 }
 
 
@@ -98,6 +118,7 @@ main{
 .logo{
 	position: relative;
 	margin: 0px;
+	margin-top: 30px;
 	width: 100%;
 }
 .logo-cetis{
@@ -105,5 +126,18 @@ main{
 	position: relative;
 	width: 100%;
 }
-
+}
+@media (min-width: 700px) and (max-width: 1200px) and (orientation: landscape){
+	.logo{
+		margin-top: 40px;
+		position: absolute;
+		width: 190px;
+		margin-left: 20px;
+	}
+	.logo-cetis{
+		margin-right: 20px;
+		right: 0;
+		position: absolute;
+		width: 200px;
+	}	
 }

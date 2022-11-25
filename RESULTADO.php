@@ -267,10 +267,68 @@ elseif ($RESULTADO==$PMIRABILIS||$RESULTADO==$PMIRABILIS1||$RESULTADO==$PMIRABIL
 	<strong>MORFOLOGÍA:</strong> Bacilo gram negativo, mide de 1.5 a 2 μm, no forma esporas, móviles.
 	<br></p>";
 }
-elseif (condition) {
-	// code...
+elseif ($RESULTADO==$MMORGANII) {
+	echo "<p class='nombre-resultado'>MORGANELLA MORGANII</p>";
+	echo "<img src='IMG/MMORGANII.png' class='imagen-resultado'>";
+	echo "<p class='descripcion-resultado'>
+	<strong>TRIBU:</strong> Proteeae.<br> 
+	<strong>GÉNERO:</strong> Morganell.<br>
+	<strong>PATOLOGÍA:</strong> Causante de infecciones urinarias y en menor medida,
+	de otras infecciones en la herida  quirúrgica.<br>  
+	<strong>MECANISMO DE CONTAGIO:</strong> Materia fecal, suelo, agua, drenajes.  
+	<strong>MORFOLIGÍA:</strong> bacilo gram negativo, anaerobio facultativo. 
+	<br></p>";
+}
+elseif ($RESULTADO==$PRETTGERI) {
+	echo "<p class='nombre-resultado'>PROVIDENCIA RETTGERI</p>";
+	echo "<img src='IMG/PRETTGERI.png' class='imagen-resultado'>";
+	echo "<p class='descripcion-resultado'>
+	<strong>TRIBU:</strong> Proteeae.<br> 
+	<strong>GÉNERO:</strong> Providencia.<br>
+	<strong>PATOLOGÍA:</strong> P. Rettgeri es un bacilo Gram-Negativo que se caracteriza principalmente
+	 por causar  principalmente infecciones a nivel de tracto urinario y otras infecciones aisladas a
+	  nivel de tracto  respiratorio y enfermedades gastrointestinales.<br> 
+	<strong>MECANISMO DE CONTAGIO:</strong> El mecanismo de transmisión de P. Rettgeri es mediante el contacto con  los pacientes, las camas o los instrumentos y zonas donde la bacteria se puede mover con  frecuencia.<br>
+	<strong>MORFOLOGÍA:</strong> Bacilo gram negativo anaeróbico facultativo, móviles.  
+	<br></p>";
+}
+elseif ($RESULTADO==$PALCALIFACIENS||$RESULTADO==$PALCALIFACIENS1||$RESULTADO==$PALCALIFACIENS2) {
+	echo "<p class='nombre-resultado'>PROVIDENCIA ALCALIFACIENS</p>";
+	echo "<img src='IMG/PALCALIFACIENS.png' class='imagen-resultado'>";
+	echo "<p class='descripcion-resultado'>
+	<strong>TRIBU:</strong> Proteeae.<br> 
+	<strong>GÉNERO:</strong> Providencia.<br>
+	<strong>PATOLOGÍA:</strong> P. Alcalifaciens es un bacilo Gram-Negativo, que es un microorganismo de la flora 
+	 intestinal normal, perteneciente a la familia Enterobacteriacea. Estudios a lo largo del tiempo
+	 han  relacionado a este microorganismo con cuadros de diarrea principalmente en niños.
+	 Investigaciones recientes han demostrado algunos mecanismos por los cuales esta bacteria puede
+	 ocasionar cuadros de gastroenteritis tales como: la capacidad invasora de esta bacteria,
+	 presencia  de genes cdt capaces de codificar para la toxina CDT y presencia de la Manganeso Súper
+	 Óxido  Dismutasa, enzima que le permite sobrevivir intracelularmente.<br> 
+	<strong>MECANISMO DE COTAGIO:</strong> Su mecanismo de transmisión es mediante el contacto con los
+	 pacientes, las camas o los instrumentos y zonas donde la bacteria se puede mover con frecuencia.<br> 
+	<strong>MORFOLOGÍA:</strong> Bacilo gram negativo anaeróbico facultativo, móviles.  
+	<br></p>";
+}
+elseif ($RESULTADO==$INTERMEDIA) {
+	echo "<p class='nombre-resultado'>YERSINIA INTERMEDIA</p>";
+	echo "<img src='IMG/YINTERMEDIA.png' class='imagen-resultado'>";
+	echo "<p class='descripcion-resultado'>
+	<strong>TRIBU:</strong>YERSINIEAE.<br>  
+	<strong>GÉNERO:</strong> Yersinia.<br>
+	<strong>PATOGENIA:</strong> Al entrar en contacto con el organismo, la bacteria se multiplica rápidamente, se  dirige a los ganglios a través de los vasos linfáticos. Los ganglios aumentan su tamaño,  originando unas lesiones denominadas bubones.<br>  
+	<strong>PATOLOGÍA:</strong> La Peste.<br>  
+	<strong>MECANISMO DE CONTAGIO:</strong> Infección zoonótica, picadura de pulgas de las ratas (peste urbana),  ardillas, conejos, ratas de campo y gatos domésticos (peste salvaje).<br> 
+	<strong>MORFOLOGÍA:</strong> Bacilos gram negativos anaerobios facultativos con una coloración bipolar, inmóvil,  mide 1 y 3 µm de longitud y entre 0.5 y 0.8 µm de diámetro.<br>
+	<br></p>";
+}
+else {
+	echo "<p class='mensaje'>Por favor revisa los datos ingresados!<br>
+	Si sus datos son correctos y no ha encontrado la enterobacteria que buscaba le sugerimos ver las enterobacterias disponibles dando click <a href='https://drive.google.com/file/d/162UneyYcSuelTYcYSmfozwFJWzJdRpjb/view?usp=share_link'>aqui</a>, seguimos trabajando para traer actualizaciones continuas para seguir mejorando la experiencia.<br>
+	<p class='mensaje-1'>att. El Equipo de PROGLAB.</p></p>";
 }
 ?>
+<button class="boton-regresar" onclick="location.href='Formulario.html'">Regresar</button>
 </div>
 </body>
 </html>

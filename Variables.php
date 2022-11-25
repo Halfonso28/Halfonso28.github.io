@@ -42,19 +42,14 @@ $ECLOACAE2="A/A++---+-+-+";
 $HALVEI="Alc/A+--/+---+++";
 $HALVEI1="Alc/A+-+---+++";
 $HALVEI2="Alc/A+-----+++";
-$PAGGLOMERANS="";//1
-$SMARCESCENS="";//2
-$PVULGARIS="";//3
 $PMIRABILIS="Alc/A+++-+/-+++-+";
 $PMIRABILIS1="Alc/A+++-++++-+";
 $PMIRABILIS2="Alc/A+++--+++-+";
-$MMORGANII="Alc/A+-++-+++-+";//HASTA AQUI VOY
+$MMORGANII="Alc/A+-++-+++-+";
 $PRETTGERI="Alc/A+-++-+++--";
-$PSTUARTII="";//4
 $PALCALIFACIENS="Alc/A+/--+++-+--";
 $PALCALIFACIENS1="Alc/A+-+++-+--";
 $PALCALIFACIENS2="Alc/A--+++-+--";
-$YENTEROCOLITICA="";//5
 $INTERMEDIA="Alc/A--++-+---";
 
 

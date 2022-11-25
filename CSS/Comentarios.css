@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background: #ACD7F4;
+    font-family: 'Quicksand-medium', sans-serif;
+}
+main{
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    background: #113269;
+    color: white;
+}
+.formulario{
+    display: block;
+    margin: 10px;
+    height: 470px;
+}
+.titulo{
+    display: block;
+    font-family: 'Quicksand-bold', sans-serif;
+    font-size: 50px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+.formulario-label{
+    padding: 10px 10px 10px 20px;
+    display: block;
+    text-align: start;
+    font-size: 20px;
+}
+.formulario-input{
+    outline: transparent;
+    display: block;
+    width: 90%;
+    margin: auto;
+    height: 28px;
+    padding-left: 8px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: none;
+}
+#Comentario{
+    width: 90%;
+    margin: auto;
+    outline: transparent;
+    font-size: 15px;
+    padding: 5px;
+    font-family: 'Quicksand-medium', sans-serif;
+}
+.boton-enviar{
+    display: block;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: white;
+    font-family: 'Quicksand-bold', sans-serif;
+    font-size: 20px;
+    outline: transparent;
+    border-radius: 5px;
+}
+.formulario-input:valid{
+    border: 3px solid #1793E9;
+}
+.formulario-input:focus:invalid{
+    border: 3px solid red;
+}
+
+
+/*FUENTES*/
+@font-face {
+    font-family:'Quicksand-medium';/*font-family: 'Quicksand-medium', sans-serif;*/
+    src: url('../FUENTES/Quicksand/static/Quicksand-Medium.ttf');
+}
+@font-face {
+    font-family:'Quicksand-bold';/*font-family: 'Quicksand-bold', sans-serif;*/
+    src: url('../FUENTES/Quicksand/static/Quicksand-Bold.ttf');
+}

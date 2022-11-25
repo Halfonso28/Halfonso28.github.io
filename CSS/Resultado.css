@@ -1,10 +1,10 @@
 /*background: linear-gradient(to bottom, #004080 50%, white);
-															(direccion,color1,color2,color...)opcional porcentaje que ocupa el color*/
+(direccion,color1,color2,color...)opcional porcentaje que ocupa el color*/
 body{
 	margin: 0;
 	margin-top: 15px;
 	background: #ACD7F4;
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Quicksand-medium', sans-serif;
 }
 .contenedor-resultado{
 	padding-top: 15px;
@@ -21,7 +21,7 @@ body{
 }
 .subtitulo{
 	margin: 0;
-	font-size: 20px;
+	font-size: 22px;
 }
 .nombre-resultado{
 	font-size: 30px;
@@ -39,11 +39,47 @@ body{
 	line-height: 35px;
 	letter-spacing: 1px;
 }
-
+.mensaje{
+	font-size: 20px;
+	margin: 20px 15px;
+	word-spacing: 2px;
+}
+.mensaje-1{
+	font-family: 'Quicksand-bold', sans-serif;
+	font-size: 23px;
+	margin: 20px 10px;
+	text-decoration: underline;
+}
+.boton-regresar{
+	background: #004080;
+	width: 150px;
+	height: 50px;
+	border: none;
+	color: white;
+	font-size: 20px;
+	font-family: 'Quicksand-bold', sans-serif;
+	margin-bottom: 10px;
+}
+a{
+	text-decoration: none;
+	color: red;
+	font-family: 'Quicksand-bold', sans-serif;
+}
+a:hover{
+	outline: 2px solid black;
+}
 /*FUENTES*/
 @font-face{
-  font-family: 'Raleway-Light';/*font-family: 'Raleway', sans-serif;*/
+  font-family: 'Raleway-Light';/*font-family: 'Raleway-Light', sans-serif;*/
   src: url('../FUENTES/Raleway/static/Raleway-Light.ttf');
+}
+@font-face {
+    font-family:'Quicksand-medium';/*font-family: 'Quicksand-medium', sans-serif;*/
+    src: url('../FUENTES/Quicksand/static/Quicksand-Medium.ttf');
+}
+@font-face {
+    font-family:'Quicksand-bold';/*font-family: 'Quicksand-bold', sans-serif;*/
+    src: url('../FUENTES/Quicksand/static/Quicksand-Bold.ttf');
 }
 
 /*
