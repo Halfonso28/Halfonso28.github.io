@@ -324,7 +324,7 @@ elseif ($RESULTADO==$INTERMEDIA) {
 }
 else {
 	echo "<p class='mensaje'>Por favor revisa los datos ingresados!<br>
-	Si sus datos son correctos y no ha encontrado la enterobacteria que buscaba le sugerimos ver las enterobacterias disponibles dando click <a href='https://drive.google.com/file/d/162UneyYcSuelTYcYSmfozwFJWzJdRpjb/view?usp=share_link'>aqui</a>, seguimos trabajando para traer actualizaciones continuas para seguir mejorando la experiencia.<br>
+	Si sus datos son correctos y no ha encontrado la enterobacteria que buscaba le sugerimos ver las enterobacterias disponibles dando click <a href='https://drive.google.com/file/d/1h9mt4nXD9UonvC0Nu9fGXv2ivayQB73f/view?usp=share_link'>aqui</a>, seguimos trabajando para traer actualizaciones continuas para seguir mejorando la experiencia.<br>
 	<p class='mensaje-1'>att. El Equipo de PROGLAB.</p></p>";
 }
 ?>
